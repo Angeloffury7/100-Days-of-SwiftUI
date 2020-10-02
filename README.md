@@ -1,4 +1,4 @@
-# 100-Days-of-SwiftUI
+# 100 Days of SwiftUI
 My solutions to projects and challenges from the "100 Days of SwiftUI" course by [Paul Hudson](https://github.com/twostraws).<br>
 https://www.hackingwithswift.com/100/swiftui
 

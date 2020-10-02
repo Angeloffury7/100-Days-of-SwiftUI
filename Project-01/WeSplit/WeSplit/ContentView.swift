@@ -3,6 +3,7 @@
 //  WeSplit
 //
 //  Created by Woolly on 9/26/20.
+//  Copyright © 2020 Woolly. All rights reserved.
 //
 
 import SwiftUI

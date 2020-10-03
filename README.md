@@ -9,7 +9,7 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | Type | Completion |
 | -------- | :----: |
 | Projects | 2 / 19 |
-| Project Challenges | 3 / 57 |
+| Project Challenges | 6 / 57 |
 | Challenge Days | 1 / 1 |
 | Milestone Projects | 0 / 6 |
 

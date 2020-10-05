@@ -15,7 +15,7 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 
 ## Projects
 
-| Project | Screenshot |
+| Project | Screenshots |
 | ------- | ---------- |
 | [Project 1](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-01) - *WeSplit*<br><sub>(completed + challenges)</sub> | ![Project 1 - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-01/Screenshots/Project1-small.png) ![Project 1 - WeSplit](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-01/Screenshots/Project1-challenges-small.png) |
 | [Challenge Day](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Challenge-Day) - *Length Converter*<br><sub>(completed)</sub> | ![Challenge Day - Length Converter](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Challenge-Day/Screenshots/LengthConverter-small.png) |

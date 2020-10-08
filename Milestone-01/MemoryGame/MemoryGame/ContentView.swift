@@ -48,7 +48,7 @@ struct ContentView: View {
             MoveImage(game.currentChoice)
             HStack(spacing: 0) {
                 Text("Try to ")
-                Text(game.chooseWin ? "win" : "loose").fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                Text(game.chooseWin ? "win" : "lose").fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 Text(" against ")
                 Text(game.currentChoice.rawValue).fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
                 Text(":")

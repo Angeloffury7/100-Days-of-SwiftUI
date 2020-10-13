@@ -8,7 +8,7 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 
 | Type | Completion |
 | -------- | :----: |
-| Projects | 3 / 19 |
+| Projects | 4 / 19 |
 | Project Challenges | 9 / 57 |
 | Challenge Days | 1 / 1 |
 | Milestone Projects | 1 / 6 |
@@ -22,3 +22,4 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | [Project 2](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-02) - *Guess the Flag*<br><sub>(completed + challenges)</sub> | ![Project 2 - Guess the Flag](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-02/Screenshots/Project2-small.png) ![Project 2 - Guess the Flag](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-02/Screenshots/Project2-challenges-small.png) |
 | [Project 3](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-03) - *Views and Modifiers*<br><sub>(completed + challenges)</sub> | ![Project 2 - Views and Modifiers](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-03/Screenshots/Project3-challenge1-small.png) |
 | [Milestone 1](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Milestone-01) - *Rock Paper Scissors*<br><sub>(completed + challenges)</sub> | ![Milestone 1 - Rock Paper Scissors](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Milestone-01/Screenshots/Milestone1a-small.png) ![Milestone 1 - Rock Paper Scissors](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Milestone-01/Screenshots/Milestone1b-small.png) |
+| [Project 4](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-04) - *BetterRest*</sub> | ![Project 4 - BetterRest](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-04/Screenshots/Project4-small.png) |

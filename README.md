@@ -8,7 +8,7 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 
 | Type | Completion |
 | -------- | :----: |
-| Projects | 4 / 19 |
+| Projects | 5 / 19 |
 | Project Challenges | 12 / 57 |
 | Challenge Days | 1 / 1 |
 | Milestone Projects | 1 / 6 |
@@ -23,3 +23,4 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | [Project 3](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-03) - *Views and Modifiers*<br><sub>(completed + challenges)</sub> | ![Project 2 - Views and Modifiers](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-03/Screenshots/Project3-challenge1-small.png) |
 | [Milestone 1](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Milestone-01) - *Rock Paper Scissors*<br><sub>(completed + challenges)</sub> | ![Milestone 1 - Rock Paper Scissors](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Milestone-01/Screenshots/Milestone1a-small.png) ![Milestone 1 - Rock Paper Scissors](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Milestone-01/Screenshots/Milestone1b-small.png) |
 | [Project 4](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-04) - *BetterRest*<br><sub>(completed + challenges)</sub> | ![Project 4 - BetterRest](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-04/Screenshots/Project4-small.png) ![Project 4 - BetterRest](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-04/Screenshots/Project4-challenges-small.png) |
+| [Project 5](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-05) - *Word Scramble* | ![Project 5 - Word Scramble](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-05/Screenshots/Project5-small.png) |

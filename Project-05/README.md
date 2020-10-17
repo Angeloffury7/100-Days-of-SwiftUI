@@ -10,4 +10,4 @@ https://www.hackingwithswift.com/books/ios-swiftui/word-scramble-introduction
 
 ## Screenshots
 
-![Project 5 - Word Scramble](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-05/Screenshots/Project5-large.png)! [Project 5 - Word Scramble](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-05/Screenshots/Project5-challenges-large.png)
+![Project 5 - Word Scramble](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-05/Screenshots/Project5-large.png) ![Project 5 - Word Scramble](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-05/Screenshots/Project5-challenges-large.png)

@@ -12,10 +12,14 @@ struct ContentView: View {
     @State private var usedWords = [String]()
     @State private var rootWord = ""
     @State private var newWord = ""
+    @State private var score = 0
     
     @State private var errorTitle = ""
     @State private var errorMessage = ""
     @State private var showingError = false
+    
+    // Storing the words so we don't have to read them in again for every new game.
+    @State private var allWords: [String] = [String]()
     
     var body: some View {
         NavigationView {
@@ -30,9 +34,14 @@ struct ContentView: View {
                     Image(systemName: "\($0.count).circle")
                     Text($0)
                 }
+                
+                // Challenge 3: show the player's score.
+                Text("Score: \(score)")
             }
             .navigationTitle(rootWord)
             .onAppear(perform: startGame)
+            // Challenge 2: new game button.
+            .navigationBarItems(leading: Button("New Game", action: startGame) )
             .alert(isPresented: $showingError) {
                 Alert(title: Text(errorTitle), message: Text(errorMessage), dismissButton: .default(Text("OK")))
             }
@@ -40,14 +49,24 @@ struct ContentView: View {
     }
     
     private func startGame() {
-        if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt") {
-            if let startWords = try? String(contentsOf: startWordsURL) {
-                let allWords = startWords.components(separatedBy: "\n")
-                rootWord = allWords.randomElement() ?? "silkworm"
-                return
+        if !allWords.isEmpty {
+            // Challenge 2: prep new game.
+            // Choose new rootWord, restore game to a "new" state.
+            rootWord = allWords.randomElement()!
+            usedWords.removeAll()
+            newWord = ""
+            score = 0
+        } else {
+            if let startWordsURL = Bundle.main.url(forResource: "start", withExtension: "txt") {
+                if let startWords = try? String(contentsOf: startWordsURL) {
+                    // I'd rather store these strings for use in new games.
+                    allWords = startWords.components(separatedBy: "\n")
+                    rootWord = allWords.randomElement() ?? "silkworm"
+                    return
+                }
             }
+            fatalError("Could not load start.txt from bundle.")
         }
-        fatalError("Could not load start.txt from bundle.")
     }
     
     private func addNewWord() {
@@ -70,11 +89,21 @@ struct ContentView: View {
             return
         }
         
+        guard isLong(word: answer) else {
+            wordError(title: "Word Too Short", message: "This word is less than 3 characters in length.")
+            return
+        }
+        
         usedWords.insert(answer, at: 0)
+        // Challenge 3: calculate the score.
+        // I decided to add a point for each character in the word.
+        score += newWord.count
+        newWord = ""
     }
     
     private func isUnique(word: String) -> Bool {
-        !usedWords.contains(word)
+        // Challenge 1: also make sure that the word is not the rootWord.
+        !usedWords.contains(word) && word != rootWord
     }
     
     private func isPossible(word: String) -> Bool {
@@ -94,6 +123,11 @@ struct ContentView: View {
         let range = NSRange(location: 0, length: word.utf16.count)
         let misspelledRange = checker.rangeOfMisspelledWord(in: word, range: range, startingAt: 0, wrap: false, language: "en")
         return misspelledRange.location == NSNotFound
+    }
+    
+    // Challenge 1: made this a separate checker function because I want to be able to give users a more valuable error message.
+    private func isLong(word: String) -> Bool {
+        word.count >= 3
     }
     
     private func wordError(title: String, message: String) {

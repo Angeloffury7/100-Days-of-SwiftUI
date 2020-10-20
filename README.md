@@ -8,8 +8,8 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 
 | Type | Completion |
 | -------- | :----: |
-| Projects | 5 / 19 |
-| Project Challenges | 15 / 57 |
+| Projects | 6 / 19 |
+| Project Challenges | 18 / 57 |
 | Challenge Days | 1 / 1 |
 | Milestone Projects | 1 / 6 |
 
@@ -24,3 +24,5 @@ A big thank you to *[@clarknt](https://github.com/clarknt)* for inspiring me to 
 | [Milestone 1](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Milestone-01) - *Rock Paper Scissors*<br><sub>(completed + challenges)</sub> | ![Milestone 1 - Rock Paper Scissors](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Milestone-01/Screenshots/Milestone1a-small.png) ![Milestone 1 - Rock Paper Scissors](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Milestone-01/Screenshots/Milestone1b-small.png) |
 | [Project 4](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-04) - *BetterRest*<br><sub>(completed + challenges)</sub> | ![Project 4 - BetterRest](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-04/Screenshots/Project4-small.png) ![Project 4 - BetterRest](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-04/Screenshots/Project4-challenges-small.png) |
 | [Project 5](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-05) - *Word Scramble*<br><sub>(completed + challenges)</sub> | ![Project 5 - Word Scramble](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-05/Screenshots/Project5-small.png) ![Project 5 - Word Scramble](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-05/Screenshots/Project5-challenges-small.png) |
+| [Project 6](https://github.com/solitaryewe/100-Days-of-SwiftUI/tree/main/Project-06) - *Animation*<br><sub>(completed + challenges)</sub> | ![Project 6 - Animation](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-06/Screenshots/Project6a-small.png) ![Project 6 - Animation](https://github.com/solitaryewe/100-Days-of-SwiftUI/blob/main/Project-06/Screenshots/Project6b-small.png)
+ |

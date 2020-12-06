@@ -1,0 +1,358 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA1CC114254EA37200385D4E /* sweet purple.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA1CC113254EA37200385D4E /* sweet purple.ttf */; };
+		EA8F27ED25522DB300B9575B /* DropshadowText.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F27EC25522DB300B9575B /* DropshadowText.swift */; };
+		EA8F27F125523BCD00B9575B /* AnswerCloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8F27F025523BCD00B9575B /* AnswerCloud.swift */; };
+		EAB3FA9D254119FF0065B9D0 /* UnicornMultiplicationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB3FA9C254119FF0065B9D0 /* UnicornMultiplicationApp.swift */; };
+		EAB3FA9F254119FF0065B9D0 /* UnicornMultiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB3FA9E254119FF0065B9D0 /* UnicornMultiplication.swift */; };
+		EAB3FAA1254119FF0065B9D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB3FAA0254119FF0065B9D0 /* Assets.xcassets */; };
+		EAB3FAA4254119FF0065B9D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EAB3FAA3254119FF0065B9D0 /* Preview Assets.xcassets */; };
+		EAB3FAAD25411A380065B9D0 /* MultiplicationGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAB3FAAC25411A380065B9D0 /* MultiplicationGame.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EA1CC113254EA37200385D4E /* sweet purple.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "sweet purple.ttf"; path = "../../../../../../Downloads/sweet_purple/sweet purple.ttf"; sourceTree = "<group>"; };
+		EA8F27EC25522DB300B9575B /* DropshadowText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropshadowText.swift; sourceTree = "<group>"; };
+		EA8F27F025523BCD00B9575B /* AnswerCloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnswerCloud.swift; sourceTree = "<group>"; };
+		EAB3FA99254119FF0065B9D0 /* UnicornMultiplication.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnicornMultiplication.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EAB3FA9C254119FF0065B9D0 /* UnicornMultiplicationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicornMultiplicationApp.swift; sourceTree = "<group>"; };
+		EAB3FA9E254119FF0065B9D0 /* UnicornMultiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnicornMultiplication.swift; sourceTree = "<group>"; };
+		EAB3FAA0254119FF0065B9D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EAB3FAA3254119FF0065B9D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EAB3FAA5254119FF0065B9D0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EAB3FAAC25411A380065B9D0 /* MultiplicationGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultiplicationGame.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EAB3FA96254119FF0065B9D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA1CC111254EA31D00385D4E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA1CC113254EA37200385D4E /* sweet purple.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EAB3FA90254119FF0065B9D0 = {
+			isa = PBXGroup;
+			children = (
+				EAB3FA9B254119FF0065B9D0 /* UnicornMultiplication */,
+				EAB3FA9A254119FF0065B9D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EAB3FA9A254119FF0065B9D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3FA99254119FF0065B9D0 /* UnicornMultiplication.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EAB3FA9B254119FF0065B9D0 /* UnicornMultiplication */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3FA9C254119FF0065B9D0 /* UnicornMultiplicationApp.swift */,
+				EAB3FA9E254119FF0065B9D0 /* UnicornMultiplication.swift */,
+				EAB3FAAC25411A380065B9D0 /* MultiplicationGame.swift */,
+				EA8F27EC25522DB300B9575B /* DropshadowText.swift */,
+				EA8F27F025523BCD00B9575B /* AnswerCloud.swift */,
+				EAB3FAA0254119FF0065B9D0 /* Assets.xcassets */,
+				EAB3FAA5254119FF0065B9D0 /* Info.plist */,
+				EA1CC111254EA31D00385D4E /* Fonts */,
+				EAB3FAA2254119FF0065B9D0 /* Preview Content */,
+			);
+			path = UnicornMultiplication;
+			sourceTree = "<group>";
+		};
+		EAB3FAA2254119FF0065B9D0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EAB3FAA3254119FF0065B9D0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EAB3FA98254119FF0065B9D0 /* UnicornMultiplication */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAB3FAA8254119FF0065B9D0 /* Build configuration list for PBXNativeTarget "UnicornMultiplication" */;
+			buildPhases = (
+				EAB3FA95254119FF0065B9D0 /* Sources */,
+				EAB3FA96254119FF0065B9D0 /* Frameworks */,
+				EAB3FA97254119FF0065B9D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UnicornMultiplication;
+			productName = UnicornMultiplication;
+			productReference = EAB3FA99254119FF0065B9D0 /* UnicornMultiplication.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EAB3FA91254119FF0065B9D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1210;
+				LastUpgradeCheck = 1210;
+				ORGANIZATIONNAME = "The Woolly Co";
+				TargetAttributes = {
+					EAB3FA98254119FF0065B9D0 = {
+						CreatedOnToolsVersion = 12.1;
+					};
+				};
+			};
+			buildConfigurationList = EAB3FA94254119FF0065B9D0 /* Build configuration list for PBXProject "UnicornMultiplication" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EAB3FA90254119FF0065B9D0;
+			productRefGroup = EAB3FA9A254119FF0065B9D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EAB3FA98254119FF0065B9D0 /* UnicornMultiplication */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EAB3FA97254119FF0065B9D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB3FAA4254119FF0065B9D0 /* Preview Assets.xcassets in Resources */,
+				EAB3FAA1254119FF0065B9D0 /* Assets.xcassets in Resources */,
+				EA1CC114254EA37200385D4E /* sweet purple.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EAB3FA95254119FF0065B9D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EAB3FA9F254119FF0065B9D0 /* UnicornMultiplication.swift in Sources */,
+				EAB3FAAD25411A380065B9D0 /* MultiplicationGame.swift in Sources */,
+				EAB3FA9D254119FF0065B9D0 /* UnicornMultiplicationApp.swift in Sources */,
+				EA8F27F125523BCD00B9575B /* AnswerCloud.swift in Sources */,
+				EA8F27ED25522DB300B9575B /* DropshadowText.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EAB3FAA6254119FF0065B9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EAB3FAA7254119FF0065B9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EAB3FAA9254119FF0065B9D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UnicornMultiplication/Preview Content\"";
+				DEVELOPMENT_TEAM = 39G9Q8WBV3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UnicornMultiplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = woolly.test.UnicornMultiplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EAB3FAAA254119FF0065B9D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"UnicornMultiplication/Preview Content\"";
+				DEVELOPMENT_TEAM = 39G9Q8WBV3;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = UnicornMultiplication/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = woolly.test.UnicornMultiplication;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EAB3FA94254119FF0065B9D0 /* Build configuration list for PBXProject "UnicornMultiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB3FAA6254119FF0065B9D0 /* Debug */,
+				EAB3FAA7254119FF0065B9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAB3FAA8254119FF0065B9D0 /* Build configuration list for PBXNativeTarget "UnicornMultiplication" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EAB3FAA9254119FF0065B9D0 /* Debug */,
+				EAB3FAAA254119FF0065B9D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EAB3FA91254119FF0065B9D0 /* Project object */;
+}

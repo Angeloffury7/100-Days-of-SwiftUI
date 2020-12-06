@@ -3,6 +3,8 @@ https://www.hackingwithswift.com/guide/ios-swiftui/3/3/challenge
 
 > Your goal is to build an “edutainment” app for kids to help them practice multiplication tables – “what is 7 x 8?” and so on. Edutainment apps are educational at their code, but ideally have enough playfulness about them to make kids want to play.
 
+Includes animated unicorns, stars, clouds.
+
 Unicorn imagery created by [macrovector_official](https://www.freepik.com/macrovector-official), available from [freepik](https://www.freepik.com/free-vector/cute-unicorn-fairy-elements-colorful-doodle-set_10479097.htm).
 
 ## Challenge

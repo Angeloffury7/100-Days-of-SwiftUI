@@ -11,10 +11,12 @@ import SwiftUI
 struct AddView: View {
     @ObservedObject var expenses: Expenses
     @Environment(\.presentationMode) var presentationMode
+    @State private var showingAlert = false
     
     @State private var name: String = ""
     @State private var type: ExpenseType = .Personal
     @State private var amount: String = ""
+    
     
     var body: some View {
         NavigationView {
@@ -33,8 +35,14 @@ struct AddView: View {
                     let item = ExpenseItem(name: name, type: type, amount: actualAmount)
                     expenses.items.append(item)
                     self.presentationMode.wrappedValue.dismiss()
+                } else {
+                    showingAlert = true
                 }
             })
+            // Challenge 3: validation and alert.
+            .alert(isPresented: $showingAlert) {
+                Alert(title: Text("Invalid Input"), message: Text("Make sure the expense amount is a whole number and the title isn't empty."), dismissButton: .default(Text("Ok")))
+            }
         }
     }
 }

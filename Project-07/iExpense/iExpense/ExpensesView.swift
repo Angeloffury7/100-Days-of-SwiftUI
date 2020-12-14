@@ -24,13 +24,16 @@ struct ExpensesView: View {
                                 .font(.caption)
                         }
                         Spacer()
+                        // Challenge 2: expense styling.
                         Text("$\(item.amount)")
+                            .foregroundColor(item.amount < 10 ? Color.gray : item.amount < 100 ? Color.black : Color.red)
                     }
                 }
                 .onDelete(perform: removeItems)
             }
             .navigationBarTitle("iExpense")
-            .navigationBarItems(trailing:
+            // Challenge 1: Edit/Done button.
+            .navigationBarItems(leading: EditButton(), trailing:
                                     Button(action: {
                                         showingAddExpense = true
                                     }) { Image(systemName: "plus")})

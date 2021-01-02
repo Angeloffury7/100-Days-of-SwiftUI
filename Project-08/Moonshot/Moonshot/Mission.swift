@@ -25,7 +25,18 @@ struct Mission: Codable, Identifiable {
             return "N/A"
         }
     }
-
+    var participatingAstronauts: [Astronaut] {
+        var matches = [Astronaut]()
+        for member in crew {
+            if let match = Astronauts.astronauts.first(where: { $0.id == member.name }) {
+                matches.append(match)
+            } else {
+                fatalError("Missing \(member)")
+            }
+        }
+        return matches
+    }
+    
     struct CrewRole: Codable {
         let name: String
         let role: String

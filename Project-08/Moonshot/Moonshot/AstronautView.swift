@@ -10,11 +10,24 @@ import SwiftUI
 
 struct AstronautView: View {
     let astronaut: Astronaut
+    let participatingMissions: [Mission]
+    
+    init (astronaut: Astronaut) {
+        self.astronaut = astronaut
+        
+        var matches = [Mission]()
+        for mission in Missions.missions {
+            if mission.crew.first(where: {$0.name == astronaut.id }) != nil {
+                matches.append(mission)
+            }
+        }
+        self.participatingMissions = matches
+    }
     
     var body: some View {
         GeometryReader { geo in
             ScrollView(.vertical) {
-                VStack {
+                VStack(alignment: .leading) {
                     Image(astronaut.id)
                         .resizable()
                         .scaledToFit()
@@ -23,6 +36,11 @@ struct AstronautView: View {
                     Text(astronaut.description)
                         .padding()
                         .layoutPriority(1)
+                    
+                    Text("\(astronaut.name) was a participant in:")
+                        .padding(.leading)
+                    MissionListNavigationLinks(for: participatingMissions)
+                    
                 }
             }
         }

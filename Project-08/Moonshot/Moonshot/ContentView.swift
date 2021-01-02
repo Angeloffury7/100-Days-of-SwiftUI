@@ -9,27 +9,16 @@
 import SwiftUI
 
 struct ContentView: View {
-    let astronauts: [Astronaut] = Bundle.main.decode("astronauts.json")
-    let missions: [Mission] = Bundle.main.decode("missions.json")
+    @State var showingDates = true
     
     var body: some View {
         NavigationView {
-            List(missions) { mission in
-                NavigationLink(destination: MissionView(mission: mission, astronauts: astronauts)) {
-                    Image(mission.imageName)
-                        .resizable()
-                        .scaledToFit()
-                        .frame(width: 44, height: 44)
-                    VStack(alignment: .leading) {
-                        Text(mission.displayName)
-                            .font(.headline)
-                        Text(mission.formattedLaunchDate)
-                    }
-                }
-            }
+            MissionListNavigationLinks(for: Missions.missions, showingDates: showingDates)
             .navigationBarTitle("Moonshot")
+                .navigationBarItems(trailing: Button(showingDates ? "Show Names" : "Show Dates") {
+                    showingDates.toggle()
+                })
         }
-
     }
 }
 

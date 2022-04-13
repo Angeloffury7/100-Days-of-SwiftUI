@@ -1,4 +1,8 @@
 # 100 Days of SwiftUI
+<b>This will no longer be updated.</b><br>
+<i>Because I got side tracked and never finished my previous attempt... 🫠</i><br>
+For updated version: https://github.com/solitaryewe/100-Days-of-SwiftUI-Updated
+
 My solutions to projects and challenges from the "100 Days of SwiftUI" course by [Paul Hudson](https://github.com/twostraws).<br>
 https://www.hackingwithswift.com/100/swiftui
 
